@@ -1,3 +1,5 @@
+【Please click the "View file" button in the right side to see the updated file.】
+【Or view the new version here if you don't see the button: https://github.com/zt007/exm/blob/master/details.】
    In the following examples, an algebraic number c is represented in the form {p(x), {z1,z2}}.
 Here p(t) is the minimal polynominal of c and {z1, z2} is a rectangle on the complex plane con-
 taining the number c. Complex numbers z1 and z2 satisy Re(z1) ≤ Re(z2) and Im(z1) ≤ Im(z2). The
