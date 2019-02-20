@@ -78,7 +78,7 @@ Example 3b:
     {x^4 + 4 x^3 + x + 7, {-5, -2}}
    };
    Output: 
-   FD ,FF & GE: Basis = empty set;
+   FD & FF: Basis = empty set;
    
 Example 3c:
   Input: 
@@ -91,7 +91,7 @@ Example 3c:
     {5 x^5 - 2 x^4 + 6 x^3 + x^2 - 5, {0, 1}}
    };
    Output: 
-   FD ,FF & GE: Basis = empty set;
+   FD & FF: Basis = empty set;
    
 Example 4a:
  Input:
@@ -117,7 +117,7 @@ Example 4b:
    {23 x^4 - x^3 + x + 1, {0, 1 + I}}
   };
 Output:
-  FD, FF & Ge: Basis=empty set;
+  FF & Ge: Basis=empty set;
   
  Example 4c:
  Input:
@@ -140,7 +140,8 @@ Output:
      {169 + 104 x^3 + 32 x^6, {-3 - 3 I, 0}}, 
      {169 + 104 x^3 + 32 x^6, {-3, 3 I}}, 
      {169 + 104 x^3 + 32 x^6, {-((3 I)/2), 3/ 4}}, 
-     {169 + 104 x^3 + 32 x^6, {0, 3/4 + (3 I)/2}}, {169 + 104 x^3 + 32 x^6, {3/4 - (3 I)/2, 3/2}}, 
+     {169 + 104 x^3 + 32 x^6, {0, 3/4 + (3 I)/2}}, 
+     {169 + 104 x^3 + 32 x^6, {3/4 - (3 I)/2, 3/2}}, 
      {169 + 104 x^3 + 32 x^6, {3/4, 3/2 + (3 I)/2}}
     };
 Output:
