@@ -1,3 +1,6 @@
+   
+   
+   
    In the following examples, an algebraic number c is represented in the form {p(x), {z1,z2}}.
 Here p(t) is the minimal polynominal of c and {z1, z2} is a rectangle on the complex plane con-
 taining the number c. Complex numbers z1 and z2 satisy Re(z1) ≤ Re(z2) and Im(z1) ≤ Im(z2). The
