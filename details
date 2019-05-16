@@ -1,15 +1,20 @@
-   In the following examples, an algebraic number c is represented in the form {p(x), {z1,z2}}.
-Here p(t) is the minimal polynominal of c and {z1, z2} is a rectangle on the complex plane con-
-taining the number c. Complex numbers z1 and z2 satisy Re(z1) ≤ Re(z2) and Im(z1) ≤ Im(z2). The
-rectangle is defined by 
-        {z1,z2} = {complex number z | Re(z1) ≤ Re(z) ≤ Re(z2), Im(z1) ≤ Im(z) ≤Im(z2)}.   
-For instance, 2^(1/2) can be represented by {x^2-2,{1,2}} and Exp(πi/4) can be represented by 
-{x^4+1,{3/8, 3/2 + 9I/4}}.
-
+   For any two rational numbers r1 ≤ r2, we set 
+                  ([r1,r2]) = {real number r | r1 < r < r2} 
+if r1 < r2, otherwise (r1 = r2) we set  
+                                 ([r1,r2]) = {r1}.
+Then for any two Gaussian rational numbers z1, z2 satisfying Re(z1) ≤ Re(z2) and Im(z1) ≤ Im(z2),
+the rectangle {z1,z2} on the complex plane is defined by 
+   {z1,z2} = {complex number z | Re(z) ∈ ([Re(z1),Re(z2)]), Im(z) ∈ ([Im(z1),Im(z2)])}.
+Any algebraic number c are represented in the form {p(x),{z1,z2}} with p(x) its minimal polynomial 
+over the field of ratinal numbers and {z1,z2} one of its isolating interval such that c is the only 
+root of p(x) that is contained in it. For instance, 2^(1/2) can be represented by {x^2-2,{1,2}} and
+Exp(πi/4) can be represented by {x^4+1,{3/8, 3/2 + 9I/4}}.
+   This representation of algebraic number is slightly different from the one described in the article.
+But this does not matter since it is not essential to the main algorithm.
    The algorithm GetBasis with the sub-algorithm GetDepVec implemented by FindRelations is de-
 noted by GetBasisFR, while the other one with the sub-algorithm GetDepVec implemented by 
-BoxSearch is denoted by CetBasisBS.
------------------------------------------------------------------------------------------------
+BoxSearch is denoted by GetBasisBS. The details of the examples in the article are shown below:
+-------------------------------------------------------------------------------------------------------
 Table 2
 --Exam 1
    Input:
