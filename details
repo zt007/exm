@@ -1457,7 +1457,7 @@ Table 4
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={16.52, 
@@ -1465,8 +1465,6 @@ Table 4
                            {-2, -1, -2, 2}
                          }
                        }
-      FindRelations:
-         {time, basis}=$Aborted
 --Exam 6
    Input:
       alge={
@@ -1501,7 +1499,7 @@ Table 4
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={7.79668, 
@@ -1510,8 +1508,6 @@ Table 4
                            {-2, 0, 2, 2, -1}
                          }
                        }
-      FindRelations:
-         {time, basis}=$Aborted
 --Exam 7
    Input:
       alge={
@@ -1551,7 +1547,7 @@ Table 4
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={294.872, 
@@ -1559,9 +1555,7 @@ Table 4
                            {-3, -1, 0, 1, 0, 0},
                            {3, 0, -2, -1, 2, 0}
                          }
-                       }
-      FindRelations:
-         {time, basis}=$Aborted   
+                       } 
 ------------------------------------------------------------------------------------------------------------------ 
 Table 5
 --Exam 1
@@ -1665,7 +1659,7 @@ Table 5
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={1766.44, 
@@ -1676,8 +1670,6 @@ Table 5
                            {0, -1, 0, -12, 0, 3}
                          }
                        }
-      FindRelations:
-         {time, basis}=$Aborted
 --Exam 3
    Input:
       alge={
@@ -2027,11 +2019,7 @@ Table 5
       }
    }
    Output:
-      GetBasisBS:
-         {time, basis}=$Aborted
-      GetBasisFR:
-         {time, basis}=$Aborted
-      FindRelations:
+      GetBasisBS/GetBasisFR/FindRelations:
          {time, basis}=$Aborted
 --Exam 4
    Input:
@@ -2125,7 +2113,7 @@ Table 5
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={158.025, 
@@ -2134,8 +2122,6 @@ Table 5
                            {2, 2, 2, 0, 0, 0}
                          }
                        }
-      FindRelations:
-         {time, basis}=$Aborted
 --Exam 6
    Input:
       alge={
@@ -2170,7 +2156,7 @@ Table 5
       }
    }
    Output:
-      GetBasisBS:
+      GetBasisBS/FindRelations:
          {time, basis}=$Aborted
       GetBasisFR:
          {time, basis}={2656.91, 
@@ -2178,8 +2164,6 @@ Table 5
                            {0, 0, 0, 2, 2, 2}
                          }
                        }
-      FindRelations:
-         {time, basis}=$Aborted
 --Exam 7
    Input:
       alge={
@@ -2214,11 +2198,7 @@ Table 5
       }
    }
    Output:
-      GetBasisBS:
-         {time, basis}=$Aborted
-      GetBasisFR:
-         {time, basis}=$Aborted
-      FindRelations:
-         {time, basis}=$Aborted
+      GetBasisBS/GetBasisFR/FindRelations:
+         {time, basis}=$Aborted   
 ------------------------------------------------------------------------------------------------------------------                       
 
